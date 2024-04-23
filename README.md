@@ -38,6 +38,8 @@ def process_text_file(file_path):
     return text  # Return the processed text
 
 text = process_text_file('ml.txt')
+~~~
+~~~
 
 # Tokenize the text into sentences
 sentences = nltk.sent_tokenize(text)
@@ -72,7 +74,8 @@ for sentence in sentences:
         ~~~
 
 <H3>Output</H3>
-![image](https://github.com/21005984/Ex-6--AAI/assets/94748389/3cb2f096-4696-4a1c-80ec-f6cd28607784)
+![image](https://github.com/21005984/Ex-6--AAI/assets/94748389/8357a8ff-177a-4565-a6ef-6aaf352fd2a5)
+
 
 ![image](https://github.com/21005984/Ex-6--AAI/assets/94748389/b2187227-a7f1-49ab-bf3f-c67065e1e9d2)
 
