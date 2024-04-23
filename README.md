@@ -1,11 +1,11 @@
-<H3>ENTER YOUR NAME : Meiyarasi V</H3>
-<H3>ENTER YOUR REGISTER NO : 212221230058</H3>
-<H3>EX. NO.6</H3>
-<H3>DATE:23 - 04 - 2024 </H3>
-<H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
-<H3>Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </H3> 
- <BR>
-<h3>Algorithm:</h3>
+## ENTER YOUR NAME : Meiyarasi V
+ENTER YOUR REGISTER NO : 212221230058
+EX. NO.6
+DATE:23 - 04 - 2024 
+Implementation of Semantic ANalysis
+Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
+
+Algorithm:
 Step 1: Import the nltk library.<br>
 Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.<br>
 Step 3:Accept user input for the text.<br>
