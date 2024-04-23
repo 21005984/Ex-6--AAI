@@ -39,10 +39,9 @@ text = process_text_file('ml.txt')
 sentences = nltk.sent_tokenize(text)
 
 for sentence in sentences:
-    # Tokenize each sentence into words
+# Tokenize each sentence into words
     words = nltk.word_tokenize(sentence)
-
-    # Perform part-of-speech tagging
+# Perform part-of-speech tagging
     pos_tags = nltk.pos_tag(words)
     for word, tag in pos_tags:
        print(word,tag)
@@ -57,10 +56,10 @@ for sentence in sentences:
     print("Synonyms:",set(synonyms))
     print("Antonyms:",set(antonyms))
 
-    # Extract verbs
+# Extract verbs
     verbs = [word for word, pos in pos_tags if pos.startswith('V')]
 
-    # Get synonyms for each verb
+# Get synonyms for each verb
     for verb in verbs:
         synonyms = get_synonyms(verb)
         print(f"Verb: {verb}")
