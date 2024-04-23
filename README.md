@@ -6,11 +6,11 @@
 ## Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
 
 ## Algorithm:
-Step 1: Import the nltk library.
-Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.
-Step 3:Accept user input for the text.
-Step 4:Tokenize the input text into words using the word_tokenize function.
-Step 5:Iterate through each word in the tokenized text.
+### Step 1: Import the nltk library.
+### Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.
+### Step 3:Accept user input for the text.
+### Step 4:Tokenize the input text into words using the word_tokenize function.
+### Step 5:Iterate through each word in the tokenized text.
 
 ## Program:
 ~~~
